@@ -6,6 +6,10 @@ Clone the repository:
 Initialize Git and DVC:  
 `git init && dvc init`
 
+Download Dataset:
+wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=1p5PU4EVDHdcIOkUxsCkkxC0zfFRPR3z9' -O iris.csv
+mv iris.csv data/
+
 Add the dataset to DVC:  
 `dvc add data/iris.csv`
 
